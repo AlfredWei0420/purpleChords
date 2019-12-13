@@ -1,0 +1,29 @@
+{
+  "name": "purplechords",
+  "version": "1.0.0",
+  "description": "自动化 定制化 和弦生成器 微信小程序",
+  "main": "null",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "scripts": {
+    "test": "lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiuMungZitAlexander/purpleChords.git"
+  },
+  "keywords": [
+    "自动化",
+    "定制化",
+    "和弦生成器",
+    "微信小程序"
+  ],
+  "author": "Alexander Zhao",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ChiuMungZitAlexander/purpleChords/issues"
+  },
+  "homepage": "https://github.com/ChiuMungZitAlexander/purpleChords#readme"
+}
