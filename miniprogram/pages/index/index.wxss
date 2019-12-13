@@ -1,0 +1,178 @@
+/**index.wxss**/
+
+page {
+  background-color: #f6f6f6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 60rpx 30rpx;
+}
+
+.setting-button {
+  align-items: center;
+  background-color: #4b6373;
+  border-radius: 50rpx;
+  box-shadow: -5rpx 5rpx 10rpx #bbb;
+  color: #fff;
+  display: flex;
+  font-size: 24rpx;
+  flex-direction: column;
+  height: 60rpx;
+  justify-content: center;
+  margin-bottom: 60rpx;
+}
+
+.setting-button-hover {
+  opacity: 0.75;
+}
+
+.keyboard-container {
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  margin-bottom: 60rpx;
+  position: relative;
+}
+
+.white-key {
+  background-color: #fff;
+  border-radius: 5rpx;
+  box-shadow: 0 6rpx 10rpx #bbb;
+  height: 100%;
+  margin-right: 5rpx;
+  width: calc(100% / 14);
+}
+
+.white-key:last-child {
+  margin-right: 0;
+}
+
+.white-key-hover {
+  background-color: #eee;
+}
+
+#c4s {
+  left: calc(100% / 28 + 5rpx);
+}
+
+#d4s {
+  left: calc(100% / 14 * 1.5 + 5rpx);
+}
+
+#f4s {
+  left: calc(100% / 14 * 3.5 + 5rpx);
+}
+
+#g4s {
+  left: calc(100% / 14 * 4.5 + 5rpx);
+}
+
+#a4s {
+  left: calc(100% / 14 * 5.5 + 5rpx);
+}
+
+#c5s {
+  left: calc(100% / 14 * 7.5 + 5rpx);
+}
+
+#d5s {
+  left: calc(100% / 14 * 8.5 + 5rpx);
+}
+
+#f5s {
+  left: calc(100% / 14 * 10.5 + 5rpx);
+}
+
+#g5s {
+  left: calc(100% / 14 * 11.5 + 5rpx);
+}
+
+#a5s {
+  left: calc(100% / 14 * 12.5 + 5rpx);
+}
+
+.black-key {
+  background-color: #244155;
+  border-radius: 5rpx;
+  box-shadow: 0 1rpx 10rpx #bbb;
+  height: 55%;
+  position: absolute;
+  width: calc(80% / 14);
+  z-index: 1001;
+}
+
+.black-key-hover {
+  background-color: #4b6373;
+}
+
+.chords-container {
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  justify-content: space-between;
+  margin-bottom: 60rpx;
+}
+
+.chord-button {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20rpx;
+  box-shadow: 0 6rpx 10rpx #bbb;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 160rpx;
+  justify-content: center;
+  width: 160rpx;
+}
+
+.chord-name {
+  color: #707070;
+  font-size: 32rpx;
+}
+
+.chord-level {
+  color: #9f9f9f;
+  font-size: 24rpx;
+}
+
+.play-panel-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.play-button-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10rpx;
+  width: 240rpx;
+}
+
+.play-button {
+  align-items: center;
+  background-color: #1592e6;
+  border-radius: 50rpx;
+  box-shadow: -5rpx 5rpx 10rpx #bbb;
+  color: #fff;
+  display: flex;
+  font-size: 24rpx;
+  height: 60rpx;
+  justify-content: center;
+}
+
+.play-button-hover {
+  opacity: 0.75;
+}
+
+.tempo-slider-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.tempo {
+  color: #4b6373;
+  font-size: 24rpx;
+  text-align: center;
+}

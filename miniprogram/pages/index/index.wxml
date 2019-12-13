@@ -1,2 +1,57 @@
 <!-- index.wxml -->
-<view>index</view>
+<view class="setting-button-container">
+  <button class="setting-button" hover-class="setting-button-hover">Instrument Settings</button>
+</view>
+<view class="keyboard-container">
+  <view id="c4" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="d4" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="e4" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="f4" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="g4" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="a4" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="b4" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="c5" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="d5" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="e5" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="f5" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="g5" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="a5" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="b5" class="white-key" hover-class="white-key-hover" bindtap="onKeyPress"></view>
+  <view id="c4s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="d4s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="f4s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="g4s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="a4s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="c5s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="d5s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="f5s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="g5s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+  <view id="a5s" class="black-key" hover-class="black-key-hover" bindtap="onKeyPress"></view>
+</view>
+<view class="chords-container">
+  <view class="chord-button" hover-class="chord-button-hover">
+    <text class="chord-name">Am</text>
+    <text class="chord-level" hover-class="chord-level-hover">vi</text>
+  </view>
+  <view class="chord-button" hover-class="chord-button-hover">
+    <text class="chord-name">E</text>
+    <text class="chord-level">III</text>
+  </view>
+  <view class="chord-button" hover-class="chord-button-hover">
+    <text class="chord-name">Bb</text>
+    <text class="chord-level">VII</text>
+  </view>
+  <view class="chord-button" hover-class="chord-button-hover">
+    <text class="chord-name">Cmaj7</text>
+    <text class="chord-level">I7</text>
+  </view>
+</view>
+<view class="play-panel-container">
+  <view class="play-button-container">
+    <button class="play-button" hover-class="play-button-hover" bindtap="onPlay">Play</button>
+  </view>
+  <view class="tempo-slider-container">
+    <text class="tempo">BPM: {{tempo}}</text>
+    <slider class="tempo-slider" min="70" max="200" block-size="24" block-color="#4b6373" bindchanging="onTempoChange" />
+  </view>
+</view>
